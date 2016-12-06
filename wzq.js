@@ -282,13 +282,13 @@ $(function(){
     //再来一局
     var again=$('.again');
 	again.on("click",function(){
-		again.css("color","red")
+		again.css("color","black")
 		window.location.reload();
 	});
 	//退出
 	 var cancel=$('.cancel');
 	cancel.on("click",function(){
-		cancel.css("color","red")
+		cancel.css("color","black")
 		window.close();
 	});
 	
